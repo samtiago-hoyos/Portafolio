@@ -1,3 +1,13 @@
+/**
+ * @typedef {Object} Project
+ * @property {number} id
+ * @property {string} title
+ * @property {string} description
+ * @property {string[]} tags
+ * @property {string} type
+ */
+
+/** @type {Project[]} */
 const projects = [
   {
     id: 1,
